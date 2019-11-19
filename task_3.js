@@ -2,7 +2,7 @@ let riddle = function(){alert('У квадратного стола отпили
 }
 riddle();
 let answer = prompt('Введите Ваш ответ!');
-if(answer == 5 || answer == 'пять' || answer == 'Пять'){
+if(answer == 5 || answer == 'пять'){
 	alert('Ответ верный!');
 } else {
 	alert('Ответ не верный, подумайте еще раз!');
